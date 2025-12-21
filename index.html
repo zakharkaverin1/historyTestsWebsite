@@ -1,58 +1,95 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8" />
-        <title id="page-title"></title>
-        <link rel="stylesheet" href="styles.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
-        <script async src="script.js"></script>
-    </head>
-    <body>
-        <header id="header">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Россия сквозь века - Интерактивные тесты по истории</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header id="header">
+        <div class="header-content">
             <h1 class="title">Россия сквозь века</h1>
             <h2 class="sub-title">Интерактивные тесты по истории России</h2>
-        </header>
-        <aside>
+        </div>
+    </header>
+
+    <aside class="timeline-aside">
+        <nav aria-label="Исторические периоды">
             <div class="timeline-track">
                 <div class="timeline-block">
-                    <p>Общий тест</p>
-                    <button>&nbsp;&nbsp;862 ◄─────► 1945</button>
+                    <p class="timeline-label">Общий тест</p>
+                    <button class="timeline-button" data-era="862-1945">
+                        <span class="timeline-range">862 ◄─────► 1945</span>
+                    </button>
                 </div>
                 <div class="timeline-block">
-                    <button>&nbsp;&nbsp;862 ◄─────► 1480</button>
+                    <button class="timeline-button" data-era="862-1480">
+                        <span class="timeline-range">862 ◄─────► 1480</span>
+                        <span class="era-name">Русь древняя и средневековая</span>
+                    </button>
                 </div>
                 <div class="timeline-block">
-                    <button>1480 ◄─────► 1613</button>
+                    <button class="timeline-button" data-era="1480-1613">
+                        <span class="timeline-range">1480 ◄─────► 1613</span>
+                        <span class="era-name">Образование государства</span>
+                    </button>
                 </div>
                 <div class="timeline-block">
-                    <button>1613 ◄─────► 1721</button>
-                </div>
-                <div class="timeline-block">
-                    <button>1721 ◄─────► 1825</button>
-                </div>
-                <div class="timeline-block">
-                    <button>1825 ◄─────► 1917</button>
-                </div>
-                <div class="timeline-block">
-                    <button>1917 ◄─────► 1922</button>
-                </div>
-                <div class="timeline-block">
-                    <button>1922 ◄─────► 1945</button>
-                </div>
+                    <button class="timeline-button" data-era="1613-1721">
 
-            </div>
-        </aside>
-        <main>
-            <article class="era-description">
-                <h3 class="era-title">Название эпохи</h3>
-                <p class="era-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </article>
-            <section class="test-buttons">
-                <div class="card">
-                    <button>Тест</button>
+                        <span class="timeline-range">1613 ◄─────► 1721</span>
+                        <span class="era-name">Российское царство</span>
+                    </button>
                 </div>
-            </section>
-        </main>
-    </body>
+                <div class="timeline-block">
+                    <button class="timeline-button" data-era="1721-1825">
+                        <span class="timeline-range">1721 ◄─────► 1825</span>
+                        <span class="era-name">Российская империя</span>
+                    </button>
+                </div>
+                <div class="timeline-block">
+                    <button class="timeline-button" data-era="1825-1917">
+                        <span class="timeline-range">1825 ◄─────► 1917</span>
+                        <span class="era-name">XIX - начало XX века</span>
+                    </button>
+                </div>
+                <div class="timeline-block">
+                    <button class="timeline-button" data-era="1917-1922">
+                        <span class="timeline-range">1917 ◄─────► 1922</span>
+                        <span class="era-name">Революция и Гражданская война</span>
+                    </button>
+                </div>
+                <div class="timeline-block">
+                    <button class="timeline-button" data-era="1922-1945">
+                        <span class="timeline-range">1922 ◄─────► 1945</span>
+                        <span class="era-name">СССР до Великой Отечественной</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </aside>
+
+    <main>
+        <article class="era-description" id="era-description">
+            <h3 class="era-title" id="era-title">Выберите исторический период</h3>
+            <p class="era-text" id="era-text">
+                Выберите интересующий вас исторический период из временной шкалы,
+                чтобы увидеть подробное описание эпохи и начать тестирование по её событиям.
+            </p>
+        </article>
+
+        <section class="test-section">
+            <div class="test-info">
+                <h4>Готовы проверить свои знания?</h4>
+                <p>После выбора периода нажмите кнопку для начала теста</p>
+            </div>
+            <div class="test-controls">
+                 <button class="test-button" id="start-test">Начать тест</button>
+                <button class="test-button secondary" id="practice-mode" >Режим тренировки</button>
+            </div>
+        </section>
+    </main>
+    <script defer type="module" src="js/mainScript.js"></script>
+</body>
 </html>

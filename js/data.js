@@ -1,5 +1,5 @@
 // 862 - 1480
-const questions862_1480 = [
+export const questions862_1480 = [
     {
         id: 1,
         question: "Какой князь, согласно 'Повести временных лет', был призван на княжение в 862 году, что положило начало династии Рюриковичей?",
@@ -243,7 +243,7 @@ const questions862_1480 = [
 ];
 
 // 1480–1613
-const questions1480_1613 = [
+export const questions1480_1613 = [
     {
         id: 1,
         question: "Какой русский царь, правивший с 1533 по 1584 год, известен своими реформами, созданием стрелецкого войска и завоеванием Казанского и Астраханского ханств?",
@@ -486,7 +486,7 @@ const questions1480_1613 = [
     }
 ];
 
-const questions1613_1721 = [
+export const questions1613_1721 = [
     {
         id: 1,
         question: "Какой царь, первый из династии Романовых, был избран Земским собором в 1613 году?",
@@ -730,7 +730,7 @@ const questions1613_1721 = [
 ];
 
 // 1721–1825
-const questions1721_1825 = [
+export const questions1721_1825 = [
     {
         id: 1,
         question: "Как называется период с 1725 по 1762 год, когда смена власти часто происходила путём дворцовых переворотов?",
@@ -974,7 +974,7 @@ const questions1721_1825 = [
 ];
 
 // 1825–1917
-const questions1825_1917 = [
+export const questions1825_1917 = [
     {
         id: 1,
         question: "Какая важнейшая реформа, отменившая крепостное право в России, была проведена императором Александром II в 1861 году?",
@@ -1218,7 +1218,7 @@ const questions1825_1917 = [
 ];
 
 // 1917–1922
-const questions1917_1922 = [
+export const questions1917_1922 = [
     {
         id: 1,
         question: "Какая партия под руководством Владимира Ленина пришла к власти в результате вооружённого восстания в Петрограде 25–26 октября (7–8 ноября) 1917 года?",
@@ -1462,7 +1462,7 @@ const questions1917_1922 = [
 ];
 
 // 1922–1945
-const questions1922_1945 = [
+export const questions1922_1945 = [
     {
         id: 1,
         question: "В каком году был образован Союз Советских Социалистических Республик (СССР)?",
@@ -1707,10 +1707,10 @@ const questions1922_1945 = [
 
 
 
-const allQuestions = [questions862_1480, questions1480_1613, questions1613_1721,
+export const allQuestions = [questions862_1480, questions1480_1613, questions1613_1721,
      questions1721_1825, questions1825_1917, questions1917_1922, questions1922_1945];
 
-function getRandomQuestions(count) {
+export function getRandomQuestions(count) {
     let questions = [];
     for (let i = 0; i < count; i++) {
         const randomEraIndex = getRandomInt(0, allQuestions.length - 1);
@@ -1721,7 +1721,7 @@ function getRandomQuestions(count) {
     return questions;
 }
 
-function getCertainTopic(count, period) {
+export function getCertainTopic(count, period) {
     const currentPeriod = allQuestions[period];
     let questions = [];
     if (count > length(currentPeriod)) {
@@ -1735,7 +1735,7 @@ function getCertainTopic(count, period) {
     return currentPeriod;
 }
 
-function getRandomInt(min, max) {
+export function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
