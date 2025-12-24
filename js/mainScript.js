@@ -1,11 +1,11 @@
 import * as data from '/js/data.js';
 
-const currentPeriod = 'questions862_1480';
 const testButton = document.getElementById("start-test");
+const periodIndex = 2;
 
 if (testButton) {
     testButton.addEventListener("click", function () {
-        localStorage.setItem('currentPeriod', JSON.stringify(currentPeriod));
+        localStorage.setItem('periodIndex', periodIndex);
         window.location.href = 'test.html';
     });
 }

@@ -1723,15 +1723,16 @@ export function getRandomQuestions(count) {
 
 export function getCertainTopic(count, period) {
     const currentPeriod = allQuestions[period];
-    let questions = [];
-    if (count > length(currentPeriod)) {
+
+    if (count <= currentPeriod.length) {
+        let questions = [];
         for (let i = 0; i < count; i++) {
-            const randomEraIndex = getRandomInt(0, currentPeriod.length - 1);
-            const randomEra = currentPeriod[randomEraIndex];
-            const randomQuestionIndex = getRandomInt(0, randomEra.length - 1);
-            questions.push(randomEra[randomQuestionIndex].question);
+            const randomQuestionIndex = getRandomInt(0, currentPeriod.length - 1);
+            questions.push(currentPeriod[randomQuestionIndex]);
         }
+        return questions;
     }
+
     return currentPeriod;
 }
 
