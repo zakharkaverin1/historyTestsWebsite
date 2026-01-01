@@ -6,19 +6,19 @@ export const questions862_1480 = [
         image: "",
         options: [
             {
-                option1: "Олег Вещий",
+                option: "Олег Вещий",
                 isCorrect: false
             },
             {
-                option2: "Рюрик",
+                option: "Рюрик",
                 isCorrect: true
             },
             {
-                option3: "Дир",
+                option: "Дир",
                 isCorrect: false
             },
             {
-                option4: "Аскольд",
+                option: "Аскольд",
                 isCorrect: false
             },
         ],
@@ -30,19 +30,19 @@ export const questions862_1480 = [
         image: "",
         options: [
             {
-                option1: "Принятие ислама",
+                option: "Принятие ислама",
                 isCorrect: false
             },
             {
-                option2: "Крещение Руси князем Владимиром",
+                option: "Крещение Руси князем Владимиром",
                 isCorrect: true
             },
             {
-                option3: "Перенесение столицы в Киев",
+                option: "Перенесение столицы в Киев",
                 isCorrect: false
             },
             {
-                option4: "Создание 'Русской Правды'",
+                option: "Создание 'Русской Правды'",
                 isCorrect: false
             },
         ],
@@ -54,19 +54,19 @@ export const questions862_1480 = [
         image: "",
         options: [
             {
-                option1: "Владимир Мономах",
+                option: "Владимир Мономах",
                 isCorrect: false
             },
             {
-                option2: "Ярослав Мудрый",
+                option: "Ярослав Мудрый",
                 isCorrect: true
             },
             {
-                option3: "Иван Калита",
+                option: "Иван Калита",
                 isCorrect: false
             },
             {
-                option4: "Святослав Игоревич",
+                option: "Святослав Игоревич",
                 isCorrect: false
             },
         ],
@@ -78,19 +78,19 @@ export const questions862_1480 = [
         image: "",
         options: [
             {
-                option1: "Битва на реке Калке",
+                option: "Битва на реке Калке",
                 isCorrect: false
             },
             {
-                option2: "Ледовое побоище (битва на Чудском озере)",
+                option: "Ледовое побоище (битва на Чудском озере)",
                 isCorrect: true
             },
             {
-                option3: "Куликовская битва",
+                option: "Куликовская битва",
                 isCorrect: false
             },
             {
-                option4: "Битва на реке Сити",
+                option: "Битва на реке Сити",
                 isCorrect: false
             },
         ],
@@ -102,19 +102,19 @@ export const questions862_1480 = [
         image: "",
         options: [
             {
-                option1: "Дмитрий Донской",
+                option: "Дмитрий Донской",
                 isCorrect: false
             },
             {
-                option2: "Юрий Долгорукий",
+                option: "Юрий Долгорукий",
                 isCorrect: false
             },
             {
-                option3: "Иван Калита",
+                option: "Иван Калита",
                 isCorrect: true
             },
             {
-                option4: "Иван III",
+                option: "Иван III",
                 isCorrect: false
             },
         ],
@@ -126,19 +126,19 @@ export const questions862_1480 = [
         image: "",
         options: [
             {
-                option1: "Битва на реке Воже",
+                option: "Битва на реке Воже",
                 isCorrect: false
             },
             {
-                option2: "Битва при Грюнвальде",
+                option: "Битва при Грюнвальде",
                 isCorrect: false
             },
             {
-                option3: "Куликовская битва",
+                option: "Куликовская битва",
                 isCorrect: true
             },
             {
-                option4: "Стояние на реке Угре",
+                option: "Стояние на реке Угре",
                 isCorrect: false
             },
         ],
@@ -150,19 +150,19 @@ export const questions862_1480 = [
         image: "",
         options: [
             {
-                option1: "Василий II Тёмный",
+                option: "Василий II Тёмный",
                 isCorrect: false
             },
             {
-                option2: "Иван III Великий",
+                option: "Иван III Великий",
                 isCorrect: true
             },
             {
-                option3: "Василий III",
+                option: "Василий III",
                 isCorrect: false
             },
             {
-                option4: "Иван IV Грозный",
+                option: "Иван IV Грозный",
                 isCorrect: false
             },
         ],
@@ -174,19 +174,19 @@ export const questions862_1480 = [
         image: "",
         options: [
             {
-                option1: "'Русская Правда'",
+                option: "'Русская Правда'",
                 isCorrect: false
             },
             {
-                option2: "'Судебник' Ивана III",
+                option: "'Судебник' Ивана III",
                 isCorrect: true
             },
             {
-                option3: "'Соборное Уложение'",
+                option: "'Соборное Уложение'",
                 isCorrect: false
             },
             {
-                option4: "'Стоглав'",
+                option: "'Стоглав'",
                 isCorrect: false
             },
         ],
@@ -198,19 +198,19 @@ export const questions862_1480 = [
         image: "",
         options: [
             {
-                option1: "Блестящая победа над монголами",
+                option: "Блестящая победа над монголами",
                 isCorrect: false
             },
             {
-                option2: "Первое столкновение с монголами, закончившееся катастрофическим поражением",
+                option: "Первое столкновение с монголами, закончившееся катастрофическим поражением",
                 isCorrect: true
             },
             {
-                option3: "Заключение союза с монголами против половцев",
+                option: "Заключение союза с монголами против половцев",
                 isCorrect: false
             },
             {
-                option4: "Остановка монгольского нашествия на 50 лет",
+                option: "Остановка монгольского нашествия на 50 лет",
                 isCorrect: false
             },
         ],
@@ -222,19 +222,19 @@ export const questions862_1480 = [
         image: "",
         options: [
             {
-                option1: "Псков",
+                option: "Псков",
                 isCorrect: false
             },
             {
-                option2: "Новгород",
+                option: "Новгород",
                 isCorrect: true
             },
             {
-                option3: "Смоленск",
+                option: "Смоленск",
                 isCorrect: false
             },
             {
-                option4: "Полоцк",
+                option: "Полоцк",
                 isCorrect: false
             },
         ],
@@ -250,19 +250,19 @@ export const questions1480_1613 = [
         image: "",
         options: [
             {
-                option1: "Василий III",
+                option: "Василий III",
                 isCorrect: false
             },
             {
-                option2: "Иван IV Грозный",
+                option: "Иван IV Грозный",
                 isCorrect: true
             },
             {
-                option3: "Фёдор I Иоаннович",
+                option: "Фёдор I Иоаннович",
                 isCorrect: false
             },
             {
-                option4: "Борис Годунов",
+                option: "Борис Годунов",
                 isCorrect: false
             },
         ],
@@ -274,19 +274,19 @@ export const questions1480_1613 = [
         image: "",
         options: [
             {
-                option1: "Опричнина",
+                option: "Опричнина",
                 isCorrect: true
             },
             {
-                option2: "Местничество",
+                option: "Местничество",
                 isCorrect: false
             },
             {
-                option3: "Кормление",
+                option: "Кормление",
                 isCorrect: false
             },
             {
-                option4: "Земщина",
+                option: "Земщина",
                 isCorrect: false
             },
         ],
@@ -294,23 +294,23 @@ export const questions1480_1613 = [
     },
     {
         id: 3,
-        question: "Как называется период в истории России с 1598 по 1613 год, характеризующийся природными катаклизмами, гражданской войной, иностранной интервенцией и острой династической борьбой?",
+        question: "Как называется период в истории России с 1598 по 1613 год, характеризующийся катаклизмами, войной, иностранной интервенцией и острой династической борьбой?",
         image: "",
         options: [
             {
-                option1: "Смутное время",
+                option: "Смутное время",
                 isCorrect: true
             },
             {
-                option2: "Эпоха дворцовых переворотов",
+                option: "Эпоха дворцовых переворотов",
                 isCorrect: false
             },
             {
-                option3: "Великая замятня",
+                option: "Великая замятня",
                 isCorrect: false
             },
             {
-                option4: "Междоусобная война",
+                option: "Междоусобная война",
                 isCorrect: false
             },
         ],
@@ -322,19 +322,19 @@ export const questions1480_1613 = [
         image: "",
         options: [
             {
-                option1: "Патриарх Никон",
+                option: "Патриарх Никон",
                 isCorrect: false
             },
             {
-                option2: "Патриарх Филарет",
+                option: "Патриарх Филарет",
                 isCorrect: false
             },
             {
-                option3: "Патриарх Иов",
+                option: "Патриарх Иов",
                 isCorrect: true
             },
             {
-                option4: "Патриарх Гермоген",
+                option: "Патриарх Гермоген",
                 isCorrect: false
             },
         ],
@@ -346,19 +346,19 @@ export const questions1480_1613 = [
         image: "",
         options: [
             {
-                option1: "Лжедмитрий I",
+                option: "Лжедмитрий I",
                 isCorrect: true
             },
             {
-                option2: "Лжедмитрий II",
+                option: "Лжедмитрий II",
                 isCorrect: false
             },
             {
-                option3: "Лжепётр",
+                option: "Лжепётр",
                 isCorrect: false
             },
             {
-                option4: "Иван Болотников",
+                option: "Иван Болотников",
                 isCorrect: false
             },
         ],
@@ -370,19 +370,19 @@ export const questions1480_1613 = [
         image: "",
         options: [
             {
-                option1: "Осада Смоленска",
+                option: "Осада Смоленска",
                 isCorrect: false
             },
             {
-                option2: "Клушинская битва",
+                option: "Клушинская битва",
                 isCorrect: true
             },
             {
-                option3: "Оборона Троице-Сергиева монастыря",
+                option: "Оборона Троице-Сергиева монастыря",
                 isCorrect: false
             },
             {
-                option4: "Восстание Болотникова",
+                option: "Восстание Болотникова",
                 isCorrect: false
             },
         ],
@@ -394,19 +394,19 @@ export const questions1480_1613 = [
         image: "",
         options: [
             {
-                option1: "Ополчение Прокопия Ляпунова",
+                option: "Ополчение Прокопия Ляпунова",
                 isCorrect: false
             },
             {
-                option2: "Второе (Нижегородское) ополчение Минина и Пожарского",
+                option: "Второе (Нижегородское) ополчение Минина и Пожарского",
                 isCorrect: true
             },
             {
-                option3: "Ополчение князя Трубецкого",
+                option: "Ополчение князя Трубецкого",
                 isCorrect: false
             },
             {
-                option4: "Стрелецкое войско",
+                option: "Стрелецкое войско",
                 isCorrect: false
             },
         ],
@@ -418,19 +418,19 @@ export const questions1480_1613 = [
         image: "",
         options: [
             {
-                option1: "Деулинское перемирие",
+                option: "Деулинское перемирие",
                 isCorrect: false
             },
             {
-                option2: "Избрание на царство Михаила Романова Земским собором",
+                option: "Избрание на царство Михаила Романова Земским собором",
                 isCorrect: true
             },
             {
-                option3: "Освобождение Смоленска",
+                option: "Освобождение Смоленска",
                 isCorrect: false
             },
             {
-                option4: "Казнь Ивана Заруцкого",
+                option: "Казнь Ивана Заруцкого",
                 isCorrect: false
             },
         ],
@@ -442,19 +442,19 @@ export const questions1480_1613 = [
         image: "",
         options: [
             {
-                option1: "Судебник Ивана III",
+                option: "Судебник Ивана III",
                 isCorrect: false
             },
             {
-                option2: "Соборное Уложение",
+                option: "Соборное Уложение",
                 isCorrect: false
             },
             {
-                option3: "Судебник Ивана IV",
+                option: "Судебник Ивана IV",
                 isCorrect: true
             },
             {
-                option4: "Русская Правда",
+                option: "Русская Правда",
                 isCorrect: false
             },
         ],
@@ -466,19 +466,19 @@ export const questions1480_1613 = [
         image: "",
         options: [
             {
-                option1: "Казачье войско",
+                option: "Казачье войско",
                 isCorrect: false
             },
             {
-                option2: "Дворянское ополчение",
+                option: "Дворянское ополчение",
                 isCorrect: false
             },
             {
-                option3: "Стрелецкое войско",
+                option: "Стрелецкое войско",
                 isCorrect: true
             },
             {
-                option4: "Регимент иноземного строя",
+                option: "Регимент иноземного строя",
                 isCorrect: false
             },
         ],
@@ -493,19 +493,19 @@ export const questions1613_1721 = [
         image: "",
         options: [
             {
-                option1: "Алексей Михайлович",
+                option: "Алексей Михайлович",
                 isCorrect: false
             },
             {
-                option2: "Михаил Фёдорович",
+                option: "Михаил Фёдорович",
                 isCorrect: true
             },
             {
-                option3: "Фёдор Алексеевич",
+                option: "Фёдор Алексеевич",
                 isCorrect: false
             },
             {
-                option4: "Иван V",
+                option: "Иван V",
                 isCorrect: false
             },
         ],
@@ -517,19 +517,19 @@ export const questions1613_1721 = [
         image: "",
         options: [
             {
-                option1: "Раскол между католиками и протестантами",
+                option: "Раскол между католиками и протестантами",
                 isCorrect: false
             },
             {
-                option2: "Раскол Русской православной церкви (старообрядчество)",
+                option: "Раскол Русской православной церкви (старообрядчество)",
                 isCorrect: true
             },
             {
-                option3: "Отделение Грузинской православной церкви",
+                option: "Отделение Грузинской православной церкви",
                 isCorrect: false
             },
             {
-                option4: "Учреждение Синода",
+                option: "Учреждение Синода",
                 isCorrect: false
             },
         ],
@@ -541,19 +541,19 @@ export const questions1613_1721 = [
         image: "",
         options: [
             {
-                option1: "Восстание Болотникова",
+                option: "Восстание Болотникова",
                 isCorrect: false
             },
             {
-                option2: "Восстание Пугачёва",
+                option: "Восстание Пугачёва",
                 isCorrect: false
             },
             {
-                option3: "Восстание Степана Разина",
+                option: "Восстание Степана Разина",
                 isCorrect: true
             },
             {
-                option4: "Медный бунт",
+                option: "Медный бунт",
                 isCorrect: false
             },
         ],
@@ -565,19 +565,19 @@ export const questions1613_1721 = [
         image: "",
         options: [
             {
-                option1: "Эпоха Просвещения",
+                option: "Эпоха Просвещения",
                 isCorrect: false
             },
             {
-                option2: "Петровские реформы",
+                option: "Петровские реформы",
                 isCorrect: true
             },
             {
-                option3: "Великие либеральные реформы",
+                option: "Великие либеральные реформы",
                 isCorrect: false
             },
             {
-                option4: "Эпоха дворцовых переворотов",
+                option: "Эпоха дворцовых переворотов",
                 isCorrect: false
             },
         ],
@@ -589,19 +589,19 @@ export const questions1613_1721 = [
         image: "",
         options: [
             {
-                option1: "Ливонская война",
+                option: "Ливонская война",
                 isCorrect: false
             },
             {
-                option2: "Семилетняя война",
+                option: "Семилетняя война",
                 isCorrect: false
             },
             {
-                option3: "Северная война",
+                option: "Северная война",
                 isCorrect: true
             },
             {
-                option4: "Русско-турецкая война 1710–1713",
+                option: "Русско-турецкая война 1710–1713",
                 isCorrect: false
             },
         ],
@@ -613,19 +613,19 @@ export const questions1613_1721 = [
         image: "",
         options: [
             {
-                option1: "Боярская дума",
+                option: "Боярская дума",
                 isCorrect: false
             },
             {
-                option2: "Приказ тайных дел",
+                option: "Приказ тайных дел",
                 isCorrect: false
             },
             {
-                option3: "Верховный тайный совет",
+                option: "Верховный тайный совет",
                 isCorrect: false
             },
             {
-                option4: "Правительствующий Сенат",
+                option: "Правительствующий Сенат",
                 isCorrect: true
             },
         ],
@@ -637,19 +637,19 @@ export const questions1613_1721 = [
         image: "",
         options: [
             {
-                option1: "Москва",
+                option: "Москва",
                 isCorrect: false
             },
             {
-                option2: "Севастополь",
+                option: "Севастополь",
                 isCorrect: false
             },
             {
-                option3: "Санкт-Петербург",
+                option: "Санкт-Петербург",
                 isCorrect: true
             },
             {
-                option4: "Одесса",
+                option: "Одесса",
                 isCorrect: false
             },
         ],
@@ -661,19 +661,19 @@ export const questions1613_1721 = [
         image: "",
         options: [
             {
-                option1: "Указ о единонаследии",
+                option: "Указ о единонаследии",
                 isCorrect: false
             },
             {
-                option2: "Табель о рангах",
+                option: "Табель о рангах",
                 isCorrect: true
             },
             {
-                option3: "Указ о престолонаследии",
+                option: "Указ о престолонаследии",
                 isCorrect: false
             },
             {
-                option4: "Генеральный регламент",
+                option: "Генеральный регламент",
                 isCorrect: false
             },
         ],
@@ -685,19 +685,19 @@ export const questions1613_1721 = [
         image: "",
         options: [
             {
-                option1: "Московская патриархия",
+                option: "Московская патриархия",
                 isCorrect: false
             },
             {
-                option2: "Святейший Правительствующий Синод",
+                option: "Святейший Правительствующий Синод",
                 isCorrect: true
             },
             {
-                option3: "Коллегия духовных дел",
+                option: "Коллегия духовных дел",
                 isCorrect: false
             },
             {
-                option4: "Консистория",
+                option: "Консистория",
                 isCorrect: false
             },
         ],
@@ -709,23 +709,23 @@ export const questions1613_1721 = [
         image: "",
         options: [
             {
-                option1: "Ревель (Таллин)",
+                option: "Ревель (Таллин)",
                 isCorrect: false
             },
             {
-                option2: "Нотебург (Шлиссельбург)",
+                option: "Нотебург (Шлиссельбург)",
+                isCorrect: true
+            },
+            {
+                option: "Нарва",
                 isCorrect: false
             },
             {
-                option3: "Нарва",
-                isCorrect: false
-            },
-            {
-                option4: "Шлиссельбург (Орешек)",
+                option: "Рига",
                 isCorrect: false
             },
         ],
-        explanation: "Поправка: Ключевым ранним успехом был захват крепости Нотебург (переименована в Шлиссельбург) в 1702 г., что открыло путь по Неве. Однако вопрос сформулирован некорректно. Первым крупным портом, отвоёванным и основанным, стал Санкт-Петербург. Альтернативный правильный ответ: важнейшей первой победой, давшей выход к Балтике, было взятие в 1703 г. крепости Ниеншанц в устье Невы."
+        explanation: "Первым важным городом с морским портом на Балтике, отвоеванным у Швеции в 1702 году, стала крепость Нотебург (ныне Шлиссельбург), которую взяли штурмом в октябре 1702 года, стала «ключом к морю» для России, закрепив выход к Балтике. "
     }
 ];
 
@@ -737,19 +737,19 @@ export const questions1721_1825 = [
         image: "",
         options: [
             {
-                option1: "Эпоха регентства",
+                option: "Эпоха регентства",
                 isCorrect: false
             },
             {
-                option2: "Эпоха дворцовых переворотов",
+                option: "Эпоха дворцовых переворотов",
                 isCorrect: true
             },
             {
-                option3: "Смутное время",
+                option: "Смутное время",
                 isCorrect: false
             },
             {
-                option4: "Бироновщина",
+                option: "Бироновщина",
                 isCorrect: false
             },
         ],
@@ -761,19 +761,19 @@ export const questions1721_1825 = [
         image: "",
         options: [
             {
-                option1: "Анна Иоанновна",
+                option: "Анна Иоанновна",
                 isCorrect: false
             },
             {
-                option2: "Елизавета Петровна",
+                option: "Елизавета Петровна",
                 isCorrect: false
             },
             {
-                option3: "Екатерина II Великая",
+                option: "Екатерина II Великая",
                 isCorrect: true
             },
             {
-                option4: "Мария Фёдоровна",
+                option: "Мария Фёдоровна",
                 isCorrect: false
             },
         ],
@@ -785,19 +785,19 @@ export const questions1721_1825 = [
         image: "",
         options: [
             {
-                option1: "Степан Разин",
+                option: "Степан Разин",
                 isCorrect: false
             },
             {
-                option2: "Кондратий Булавин",
+                option: "Кондратий Булавин",
                 isCorrect: false
             },
             {
-                option3: "Емельян Пугачёв",
+                option: "Емельян Пугачёв",
                 isCorrect: true
             },
             {
-                option4: "Иван Болотников",
+                option: "Иван Болотников",
                 isCorrect: false
             },
         ],
@@ -809,19 +809,19 @@ export const questions1721_1825 = [
         image: "",
         options: [
             {
-                option1: "Русско-турецкая война 1768–1774",
+                option: "Русско-турецкая война 1768–1774",
                 isCorrect: false
             },
             {
-                option2: "Русско-турецкая война 1787–1791",
+                option: "Русско-турецкая война 1787–1791",
                 isCorrect: false
             },
             {
-                option3: "Крым был присоединён манифестом Екатерины II после предыдущей войны",
+                option: "Крым был присоединён манифестом Екатерины II после предыдущей войны",
                 isCorrect: true
             },
             {
-                option4: "Северная война",
+                option: "Северная война",
                 isCorrect: false
             },
         ],
@@ -833,19 +833,19 @@ export const questions1721_1825 = [
         image: "",
         options: [
             {
-                option1: "Михаил Кутузов",
+                option: "Михаил Кутузов",
                 isCorrect: false
             },
             {
-                option2: "Александр Суворов",
+                option: "Александр Суворов",
                 isCorrect: true
             },
             {
-                option3: "Пётр Румянцев",
+                option: "Пётр Румянцев",
                 isCorrect: false
             },
             {
-                option4: "Григорий Потёмкин",
+                option: "Григорий Потёмкин",
                 isCorrect: false
             },
         ],
@@ -857,19 +857,19 @@ export const questions1721_1825 = [
         image: "",
         options: [
             {
-                option1: "Смоленское сражение",
+                option: "Смоленское сражение",
                 isCorrect: false
             },
             {
-                option2: "Бородинское сражение",
+                option: "Бородинское сражение",
                 isCorrect: true
             },
             {
-                option3: "Сражение под Малоярославцем",
+                option: "Сражение под Малоярославцем",
                 isCorrect: false
             },
             {
-                option4: "Битва под Аустерлицем",
+                option: "Битва под Аустерлицем",
                 isCorrect: false
             },
         ],
@@ -881,19 +881,19 @@ export const questions1721_1825 = [
         image: "",
         options: [
             {
-                option1: "Народники",
+                option: "Народники",
                 isCorrect: false
             },
             {
-                option2: "Славянофилы",
+                option: "Славянофилы",
                 isCorrect: false
             },
             {
-                option3: "Декабристы",
+                option: "Декабристы",
                 isCorrect: true
             },
             {
-                option4: "Западники",
+                option: "Западники",
                 isCorrect: false
             },
         ],
@@ -905,19 +905,19 @@ export const questions1721_1825 = [
         image: "",
         options: [
             {
-                option1: "Александр I",
+                option: "Александр I",
                 isCorrect: false
             },
             {
-                option2: "Константин Павлович",
+                option: "Константин Павлович",
                 isCorrect: false
             },
             {
-                option3: "Николай I",
+                option: "Николай I",
                 isCorrect: true
             },
             {
-                option4: "Александр II",
+                option: "Александр II",
                 isCorrect: false
             },
         ],
@@ -929,19 +929,19 @@ export const questions1721_1825 = [
         image: "",
         options: [
             {
-                option1: "Дмитрий Менделеев",
+                option: "Дмитрий Менделеев",
                 isCorrect: false
             },
             {
-                option2: "Михаил Ломоносов",
+                option: "Михаил Ломоносов",
                 isCorrect: true
             },
             {
-                option3: "Николай Лобачевский",
+                option: "Николай Лобачевский",
                 isCorrect: false
             },
             {
-                option4: "Иван Ползунов",
+                option: "Иван Ползунов",
                 isCorrect: false
             },
         ],
@@ -953,24 +953,24 @@ export const questions1721_1825 = [
         image: "",
         options: [
             {
-                option1: "Медный всадник",
+                option: "Медный всадник",
                 isCorrect: false
             },
             {
-                option2: "Ростральные колонны",
+                option: "Ростральные колонны",
                 isCorrect: false
             },
             {
-                option3: "Александровская колонна",
+                option: "Александровская колонна",
                 isCorrect: true
             },
             {
-                option4: "Памятник Минину и Пожарскому",
+                option: "Памятник Минину и Пожарскому",
                 isCorrect: false
             },
         ],
         explanation: "Александровская колонна на Дворцовой площади (арх. Огюст Монферран) установлена в честь победы императора Александра I над Наполеоном. Венчает её фигура ангела с крестом."
-    }
+     }
 ];
 
 // 1825–1917
@@ -981,19 +981,19 @@ export const questions1825_1917 = [
         image: "",
         options: [
             {
-                option1: "Судебная реформа",
+                option: "Судебная реформа",
                 isCorrect: false
             },
             {
-                option2: "Земская реформа",
+                option: "Земская реформа",
                 isCorrect: false
             },
             {
-                option3: "Крестьянская реформа (Отмена крепостного права)",
+                option: "Крестьянская реформа (Отмена крепостного права)",
                 isCorrect: true
             },
             {
-                option4: "Военная реформа",
+                option: "Военная реформа",
                 isCorrect: false
             },
         ],
@@ -1005,19 +1005,19 @@ export const questions1825_1917 = [
         image: "",
         options: [
             {
-                option1: "«Чёрный передел»",
+                option: "«Чёрный передел»",
                 isCorrect: false
             },
             {
-                option2: "«Земля и воля» (первая)",
+                option: "«Земля и воля» (первая)",
                 isCorrect: false
             },
             {
-                option3: "«Народная воля»",
+                option: "«Народная воля»",
                 isCorrect: true
             },
             {
-                option4: "«Союз борьбы за освобождение рабочего класса»",
+                option: "«Союз борьбы за освобождение рабочего класса»",
                 isCorrect: false
             },
         ],
@@ -1029,19 +1029,19 @@ export const questions1825_1917 = [
         image: "",
         options: [
             {
-                option1: "Контрреформы",
+                option: "Контрреформы",
                 isCorrect: true
             },
             {
-                option2: "Эпоха великих реформ",
+                option: "Эпоха великих реформ",
                 isCorrect: false
             },
             {
-                option3: "Эпоха застоя",
+                option: "Эпоха застоя",
                 isCorrect: false
             },
             {
-                option4: "Просвещённый абсолютизм",
+                option: "Просвещённый абсолютизм",
                 isCorrect: false
             },
         ],
@@ -1053,19 +1053,19 @@ export const questions1825_1917 = [
         image: "",
         options: [
             {
-                option1: "Русско-турецкая война",
+                option: "Русско-турецкая война",
                 isCorrect: false
             },
             {
-                option2: "Первая мировая война",
+                option: "Первая мировая война",
                 isCorrect: false
             },
             {
-                option3: "Крымская война",
+                option: "Крымская война",
                 isCorrect: false
             },
             {
-                option4: "Русско-японская война",
+                option: "Русско-японская война",
                 isCorrect: true
             },
         ],
@@ -1077,19 +1077,19 @@ export const questions1825_1917 = [
         image: "",
         options: [
             {
-                option1: "Восстание на броненосце «Потёмкин»",
+                option: "Восстание на броненосце «Потёмкин»",
                 isCorrect: false
             },
             {
-                option2: "Расстрел мирного шествия рабочих к Зимнему дворцу",
+                option: "Расстрел мирного шествия рабочих к Зимнему дворцу",
                 isCorrect: true
             },
             {
-                option3: "Всеобщая политическая стачка",
+                option: "Всеобщая политическая стачка",
                 isCorrect: false
             },
             {
-                option4: "Вооружённое восстание в Москве",
+                option: "Вооружённое восстание в Москве",
                 isCorrect: false
             },
         ],
@@ -1101,19 +1101,19 @@ export const questions1825_1917 = [
         image: "",
         options: [
             {
-                option1: "Манифест об отречении",
+                option: "Манифест об отречении",
                 isCorrect: false
             },
             {
-                option2: "Манифест «Об усовершенствовании государственного порядка»",
+                option: "Манифест «Об усовершенствовании государственного порядка»",
                 isCorrect: true
             },
             {
-                option3: "«Основные государственные законы»",
+                option: "«Основные государственные законы»",
                 isCorrect: false
             },
             {
-                option4: "Декрет о земле",
+                option: "Декрет о земле",
                 isCorrect: false
             },
         ],
@@ -1125,19 +1125,19 @@ export const questions1825_1917 = [
         image: "",
         options: [
             {
-                option1: "Учредительное собрание",
+                option: "Учредительное собрание",
                 isCorrect: false
             },
             {
-                option2: "Государственная дума Российской империи",
+                option: "Государственная дума Российской империи",
                 isCorrect: true
             },
             {
-                option3: "Верховный Совет",
+                option: "Верховный Совет",
                 isCorrect: false
             },
             {
-                option4: "Земский собор",
+                option: "Земский собор",
                 isCorrect: false
             },
         ],
@@ -1149,19 +1149,19 @@ export const questions1825_1917 = [
         image: "",
         options: [
             {
-                option1: "Брусиловский прорыв",
+                option: "Брусиловский прорыв",
                 isCorrect: false
             },
             {
-                option2: "Галицийская битва",
+                option: "Галицийская битва",
                 isCorrect: true
             },
             {
-                option3: "Варшавско-Ивангородская операция",
+                option: "Варшавско-Ивангородская операция",
                 isCorrect: false
             },
             {
-                option4: "Сражение при Танненберге",
+                option: "Сражение при Танненберге",
                 isCorrect: false
             },
         ],
@@ -1169,23 +1169,23 @@ export const questions1825_1917 = [
     },
     {
         id: 9,
-        question: "Какое событие в феврале 1917 года в Петрограде привело к падению монархии в России?",
+        question: "Какое событие в 1917 году привело к падению монархии в России?",
         image: "",
         options: [
             {
-                option1: "Октябрьская революция",
+                option: "Октябрьская революция",
                 isCorrect: false
             },
             {
-                option2: "Корниловский мятеж",
+                option: "Корниловский мятеж",
                 isCorrect: false
             },
             {
-                option3: "Июльский кризис",
+                option: "Июльский кризис",
                 isCorrect: false
             },
             {
-                option4: "Февральская революция",
+                option: "Февральская революция",
                 isCorrect: true
             },
         ],
@@ -1197,23 +1197,23 @@ export const questions1825_1917 = [
         image: "",
         options: [
             {
-                option1: "Георгий Львов",
+                option: "Георгий Львов",
                 isCorrect: false
             },
             {
-                option2: "Павел Милюков",
+                option: "Павел Милюков",
                 isCorrect: false
             },
             {
-                option3: "Александр Керенский",
+                option: "Александр Керенский",
                 isCorrect: true
             },
             {
-                option4: "Лавр Корнилов",
+                option: "Лавр Корнилов",
                 isCorrect: false
             },
         ],
-        explanation: "Александр Керенский, эсер, стал министром-председателем Временного правительства. Его неспособность решить ключевые вопросы (о мире, земле, прекратить войну) привела к росту популярности большевиков."
+        explanation: "Александр Керенский, эссер, стал министром-председателем Временного правительства. Его неспособность решить ключевые вопросы (о мире, земле, прекратить войну) привела к росту популярности большевиков."
     }
 ];
 
@@ -1225,19 +1225,19 @@ export const questions1917_1922 = [
         image: "",
         options: [
             {
-                option1: "Партия социалистов-революционеров (эсеры)",
+                option: "Партия социалистов-революционеров (эсеры)",
                 isCorrect: false
             },
             {
-                option2: "РСДРП(б) — большевики",
+                option: "РСДРП(б) — большевики",
                 isCorrect: true
             },
             {
-                option3: "Конституционно-демократическая партия (кадеты)",
+                option: "Конституционно-демократическая партия (кадеты)",
                 isCorrect: false
             },
             {
-                option4: "РСДРП (меньшевики)",
+                option: "РСДРП (меньшевики)",
                 isCorrect: false
             },
         ],
@@ -1249,19 +1249,19 @@ export const questions1917_1922 = [
         image: "",
         options: [
             {
-                option1: "ВЦИК (Всероссийский Центральный Исполнительный Комитет)",
+                option: "ВЦИК (Всероссийский Центральный Исполнительный Комитет)",
                 isCorrect: false
             },
             {
-                option2: "Совет Народных Комиссаров (СНК)",
+                option: "Совет Народных Комиссаров (СНК)",
                 isCorrect: true
             },
             {
-                option3: "ВЧК (Всероссийская чрезвычайная комиссия)",
+                option: "ВЧК (Всероссийская чрезвычайная комиссия)",
                 isCorrect: false
             },
             {
-                option4: "Реввоенсовет",
+                option: "Реввоенсовет",
                 isCorrect: false
             },
         ],
@@ -1273,19 +1273,19 @@ export const questions1917_1922 = [
         image: "",
         options: [
             {
-                option1: "НКВД",
+                option: "НКВД",
                 isCorrect: false
             },
             {
-                option2: "ГПУ",
+                option: "ГПУ",
                 isCorrect: false
             },
             {
-                option3: "ВЧК",
+                option: "ВЧК",
                 isCorrect: true
             },
             {
-                option4: "ОГПУ",
+                option: "ОГПУ",
                 isCorrect: false
             },
         ],
@@ -1297,19 +1297,19 @@ export const questions1917_1922 = [
         image: "",
         options: [
             {
-                option1: "5–6 января 1918 года",
+                option: "5–6 января 1918 года",
                 isCorrect: true
             },
             {
-                option2: "25 октября 1917 года",
+                option: "25 октября 1917 года",
                 isCorrect: false
             },
             {
-                option3: "3 марта 1918 года",
+                option: "3 марта 1918 года",
                 isCorrect: false
             },
             {
-                option4: "10 июля 1918 года",
+                option: "10 июля 1918 года",
                 isCorrect: false
             },
         ],
@@ -1321,19 +1321,19 @@ export const questions1917_1922 = [
         image: "",
         options: [
             {
-                option1: "Версальский мир",
+                option: "Версальский мир",
                 isCorrect: false
             },
             {
-                option2: "Рижский мир",
+                option: "Рижский мир",
                 isCorrect: false
             },
             {
-                option3: "Брестский мир",
+                option: "Брестский мир",
                 isCorrect: true
             },
             {
-                option4: "Портсмутский мир",
+                option: "Портсмутский мир",
                 isCorrect: false
             },
         ],
@@ -1345,19 +1345,19 @@ export const questions1917_1922 = [
         image: "",
         options: [
             {
-                option1: "Новая экономическая политика (НЭП)",
+                option: "Новая экономическая политика (НЭП)",
                 isCorrect: false
             },
             {
-                option2: "Индустриализация",
+                option: "Индустриализация",
                 isCorrect: false
             },
             {
-                option3: "«Военный коммунизм»",
+                option: "«Военный коммунизм»",
                 isCorrect: true
             },
             {
-                option4: "Коллективизация",
+                option: "Коллективизация",
                 isCorrect: false
             },
         ],
@@ -1365,23 +1365,23 @@ export const questions1917_1922 = [
     },
     {
         id: 7,
-        question: "Кто был одним из самых известных руководителей Белого движения на юге России в годы Гражданской войны?",
+        question: "Кто был одним из самых первых известных руководителей Белого движения на юге России в годы Гражданской войны?",
         image: "",
         options: [
             {
-                option1: "Александр Колчак (на востоке)",
+                option: "Александр Колчак",
                 isCorrect: false
             },
             {
-                option2: "Антон Деникин (на юге)",
+                option: "Антон Деникин",
                 isCorrect: true
             },
             {
-                option3: "Николай Юденич (на северо-западе)",
+                option: "Николай Юденич",
                 isCorrect: false
             },
             {
-                option4: "Пётр Врангель (на юге, позднее)",
+                option4: "Пётр Врангель",
                 isCorrect: false
             },
         ],
@@ -1393,19 +1393,19 @@ export const questions1917_1922 = [
         image: "",
         options: [
             {
-                option1: "Революционно-повстанческая армия Украины (махновцы)",
+                option: "Революционно-повстанческая армия Украины",
                 isCorrect: true
             },
             {
-                option2: "Зелёная армия",
+                option: "Зелёная армия",
                 isCorrect: false
             },
             {
-                option3: "Украинская народная армия (УНР)",
+                option: "Украинская народная армия (УНР)",
                 isCorrect: false
             },
             {
-                option4: "Кубанское казачье войско",
+                option: "Кубанское казачье войско",
                 isCorrect: false
             },
         ],
@@ -1417,19 +1417,19 @@ export const questions1917_1922 = [
         image: "",
         options: [
             {
-                option1: "Мятеж Чехословацкого корпуса",
+                option: "Мятеж Чехословацкого корпуса",
                 isCorrect: true
             },
             {
-                option2: "Выступление Корнилова",
+                option: "Выступление Корнилова",
                 isCorrect: false
             },
             {
-                option3: "Штурм Зимнего дворца",
+                option: "Штурм Зимнего дворца",
                 isCorrect: false
             },
             {
-                option4: "Расстрел царской семьи",
+                option: "Расстрел царской семьи",
                 isCorrect: false
             },
         ],
@@ -1441,19 +1441,19 @@ export const questions1917_1922 = [
         image: "",
         options: [
             {
-                option1: "Белыми войсками при отступлении из Екатеринбурга",
+                option: "Белыми войсками при отступлении из Екатеринбурга",
                 isCorrect: false
             },
             {
-                option2: "По решению Уральского областного совета в июле 1918 года",
+                option: "По решению Уральского областного совета в июле 1918 года",
                 isCorrect: true
             },
             {
-                option3: "В Москве по приговору суда",
+                option: "В Москве по приговору суда",
                 isCorrect: false
             },
             {
-                option4: "Во время штурма Ипатьевского дома красноармейцами",
+                option: "Во время штурма Ипатьевского дома красноармейцами",
                 isCorrect: false
             },
         ],
@@ -1469,19 +1469,19 @@ export const questions1922_1945 = [
         image: "",
         options: [
             {
-                option1: "1917",
+                option: "1917",
                 isCorrect: false
             },
             {
-                option2: "1922",
+                option: "1922",
                 isCorrect: true
             },
             {
-                option3: "1924",
+                option: "1924",
                 isCorrect: false
             },
             {
-                option4: "1936",
+                option: "1936",
                 isCorrect: false
             },
         ],
@@ -1493,19 +1493,19 @@ export const questions1922_1945 = [
         image: "",
         options: [
             {
-                option1: "Индустриализация",
+                option: "Индустриализация",
                 isCorrect: false
             },
             {
-                option2: "Коллективизация",
+                option: "Коллективизация",
                 isCorrect: false
             },
             {
-                option3: "Новая экономическая политика (НЭП)",
+                option: "Новая экономическая политика (НЭП)",
                 isCorrect: true
             },
             {
-                option4: "Пятилетки",
+                option: "Пятилетки",
                 isCorrect: false
             },
         ],
@@ -1517,19 +1517,19 @@ export const questions1922_1945 = [
         image: "",
         options: [
             {
-                option1: "Коллективизация",
+                option: "Коллективизация",
                 isCorrect: false
             },
             {
-                option2: "Индустриализация",
+                option: "Индустриализация",
                 isCorrect: true
             },
             {
-                option3: "Национализация",
+                option: "Национализация",
                 isCorrect: false
             },
             {
-                option4: "Кооперация",
+                option: "Кооперация",
                 isCorrect: false
             },
         ],
@@ -1541,19 +1541,19 @@ export const questions1922_1945 = [
         image: "",
         options: [
             {
-                option1: "Индустриализация",
+                option: "Индустриализация",
                 isCorrect: false
             },
             {
-                option2: "Коллективизация сельского хозяйства",
+                option: "Коллективизация",
                 isCorrect: true
             },
             {
-                option3: "Национализация земли",
+                option: "Национализация земли",
                 isCorrect: false
             },
             {
-                option4: "Освоение целины",
+                option: "Освоение целины",
                 isCorrect: false
             },
         ],
@@ -1565,19 +1565,19 @@ export const questions1922_1945 = [
         image: "",
         options: [
             {
-                option1: "Конституция 1918 года",
+                option: "Конституция первого в мире социалистического государства",
                 isCorrect: false
             },
             {
-                option2: "Конституция 1924 года",
+                option: "Конституция РСФСР",
                 isCorrect: false
             },
             {
-                option3: "Конституция СССР 1936 года",
+                option: "Конституция СССР",
                 isCorrect: true
             },
             {
-                option4: "Конституция 1977 года",
+                option: "Декрет о законах",
                 isCorrect: false
             },
         ],
@@ -1589,19 +1589,19 @@ export const questions1922_1945 = [
         image: "",
         options: [
             {
-                option1: "Дело врачей",
+                option: "Дело врачей",
                 isCorrect: false
             },
             {
-                option2: "Красный террор",
+                option: "Красный террор",
                 isCorrect: false
             },
             {
-                option3: "Большой террор",
+                option: "Большой террор",
                 isCorrect: true
             },
             {
-                option4: "Смутное время",
+                option: "Смутное время",
                 isCorrect: false
             },
         ],
@@ -1613,19 +1613,19 @@ export const questions1922_1945 = [
         image: "",
         options: [
             {
-                option1: "Версальский договор",
+                option: "Брестский пакт",
                 isCorrect: false
             },
             {
-                option2: "Пакт Молотова–Риббентропа",
+                option: "Пакт Молотова–Риббентропа",
                 isCorrect: true
             },
             {
-                option3: "Брестский мир",
+                option: "Союзный договор",
                 isCorrect: false
             },
             {
-                option4: "Антикоминтерновский пакт",
+                option: "Брестский мир",
                 isCorrect: false
             },
         ],
@@ -1637,19 +1637,19 @@ export const questions1922_1945 = [
         image: "",
         options: [
             {
-                option1: "Битва за Москву",
+                option: "Битва за Москву",
                 isCorrect: false
             },
             {
-                option2: "Сталинградская битва",
+                option: "Сталинградская битва",
                 isCorrect: true
             },
             {
-                option3: "Курская битва",
+                option: "Курская битва",
                 isCorrect: false
             },
             {
-                option4: "Битва за Берлин",
+                option: "Битва за Воронеж",
                 isCorrect: false
             },
         ],
@@ -1661,19 +1661,19 @@ export const questions1922_1945 = [
         image: "",
         options: [
             {
-                option1: "Под Прохоровкой",
+                option: "Под Прохоровкой",
                 isCorrect: true
             },
             {
-                option2: "Под Бородино",
+                option: "Под Бородино",
                 isCorrect: false
             },
             {
-                option3: "Под Уманью",
+                option: "Под Уманью",
                 isCorrect: false
             },
             {
-                option4: "Под Харьковом",
+                option: "Под Курском",
                 isCorrect: false
             },
         ],
@@ -1685,19 +1685,19 @@ export const questions1922_1945 = [
         image: "",
         options: [
             {
-                option1: "1 мая 1945",
+                option: "8 мая 1945",
                 isCorrect: false
             },
             {
-                option2: "2 мая 1945",
+                option: "9 мая 1945",
                 isCorrect: false
             },
             {
-                option3: "9 мая 1945",
+                option: "1 мая 1945",
                 isCorrect: false
             },
             {
-                option4: "30 апреля – 1 мая 1945",
+                option: "30 апреля 1945",
                 isCorrect: true
             },
         ],
@@ -1723,14 +1723,13 @@ export function getRandomQuestions(count) {
 
 export function getCertainTopic(count, period) {
     const currentPeriod = allQuestions[period];
-
     if (count <= currentPeriod.length) {
-        let questions = [];
-        for (let i = 0; i < count; i++) {
-            const randomQuestionIndex = getRandomInt(0, currentPeriod.length - 1);
-            questions.push(currentPeriod[randomQuestionIndex]);
+        const shuffled = [...currentPeriod];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
-        return questions;
+                return shuffled.slice(0, count);
     }
 
     return currentPeriod;
