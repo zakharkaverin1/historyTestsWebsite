@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title id="page-title">Россия сквозь века - Интерактивные тесты по истории</title>
-    <!-- <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="css/styles.css">-->
+    <link rel="stylesheet" href="css/testStyle.css">
 </head>
 <body>
     <header id="header">
@@ -18,18 +17,27 @@
     <main>
         <section>
             <div class="questionnare">
+                <button onclick="goToMainPage()" class="test-button">← К выбору темы</button>
                 <span id="questions-list"></span>
                 <span id="question"></span>
                 <fieldset>
                     <span id="answers">
                     </span>
                 </fieldset>
-                <p id="description">
-
-                </p>
+                <p id="description"></p>
             </div>
         </section>
     </main>
+    <div id="resultsModal" class="modal" style="display: none;">
+  <div class="modal-content">
+    <h2>Тест завершён!</h2>
+    <div class="final-score">Твой результат: <span id="finalScore"></span></div>
+    <div class="actions">
+      <button onclick="restartQuiz()" class="test-button">↻ Пройти заново</button>
+      <button onclick="goToMainPage()" class="test-button">← К выбору темы</button>
+    </div>
+  </div>
+</div>
     <script defer type="module" src="js/testScript.js"></script>
 </body>
 </html>
