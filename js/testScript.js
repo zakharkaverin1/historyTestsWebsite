@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const total = questions.length;
         //fill results and show modal window
         document.getElementById('finalScore').textContent = `${correct}/${total}`;
-        document.getElementById('resultsModal').style.display = 'block';
+        document.getElementById('resultsModal').style.display = 'grid';
     }
 
     function restartQuiz() {
@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('resultsModal').style.display = 'none';
         filling(questions);
     }
-
 function filling(questions) {
     questionsList.innerHTML = '';
 
@@ -69,7 +68,7 @@ function filling(questions) {
             btn.disabled = true;
 
             if (answeredQuestions[currentQuestionIndex].selectedOption === i) {
-                btn.classList.add(answeredQuestions[currentQuestionIndex].isCorrect ? 'correct' : 'wrong');
+                 btn.classList.add(answeredQuestions[currentQuestionIndex].isCorrect ? 'correct' : 'wrong');
             }
 
         } else {
@@ -85,9 +84,10 @@ function filling(questions) {
                 if (option.isCorrect) {
                     score++;
                     ansDescription.innerText = "Правильно! " + question.explanation;
-
+                    btn.classList.add('correct');
                 } else {
                     ansDescription.innerText = "Неправильно! " + question.explanation;
+                    btn.classList.add('wrong');
                 }
 
                 const qBtn = document.querySelector(`.other-question[value="${currentQuestionIndex}"]`);
