@@ -1,4 +1,4 @@
-import * as data from '/js/data.js';
+import * as data from './data.js';
 
 const practiceButton = document.getElementById("practice-mode");
 const timelineTrack = document.querySelector(".timeline-track");
