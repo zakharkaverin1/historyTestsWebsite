@@ -1,4 +1,4 @@
-import * as data from '/js/data.js';
+import * as data from './js/data.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     const periodIndex = parseInt(localStorage.getItem('periodIndex')) || 0;
