@@ -1,4 +1,4 @@
-import * as data from './js/data.js';
+import * as data from '/js/data.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     const periodIndex = parseInt(localStorage.getItem('periodIndex')) || 0;
@@ -34,78 +34,79 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('resultsModal').style.display = 'none';
         filling(questions);
     }
-function filling(questions) {
-    questionsList.innerHTML = '';
 
-    for (let i = 1; i <= questions.length; i++) {
-        let btnClass = 'other-question';
-        if (answeredQuestions[i]) {
-            btnClass += ' answered';
-            if (answeredQuestions[i].isCorrect) {
-                btnClass += ' correct';
-            } else {
-                btnClass += ' wrong';
+    function filling(questions) {
+        questionsList.innerHTML = '';
+
+        for (let i = 1; i <= questions.length; i++) {
+            let btnClass = 'other-question';
+            if (answeredQuestions[i]) {
+                btnClass += ' answered';
+                if (answeredQuestions[i].isCorrect) {
+                    btnClass += ' correct';
+                } else {
+                    btnClass += ' wrong';
+                }
             }
+
+            questionsList.innerHTML += `<button class="${btnClass}" value="${i}">${i}</button>`;
         }
 
-        questionsList.innerHTML += `<button class="${btnClass}" value="${i}">${i}</button>`;
+        const question = questions[currentQuestionIndex - 1];
+        questionLabel.innerHTML = question.question || "Текст вопроса отсутствует";
+        answersContainer.innerHTML = '';
+
+        // create buttons for each answer
+        question.options.forEach((option, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'answer-option';
+            btn.innerHTML = option.option;
+            btn.dataset.isCorrect = option.isCorrect;
+            btn.dataset.explanation = question.explanation || "";
+
+            // answer was received earlier
+            if (answeredQuestions[currentQuestionIndex]) {
+                btn.disabled = true;
+
+                if (answeredQuestions[currentQuestionIndex].selectedOption === i) {
+                    btn.classList.add(answeredQuestions[currentQuestionIndex].isCorrect ? 'correct' : 'wrong');
+                }
+
+            } else {
+                btn.onclick = function () {
+                    answeredQuestions[currentQuestionIndex] = {
+                        answered: true,
+                        isCorrect: option.isCorrect,
+                        selectedOption: i
+                    };
+
+                    document.querySelectorAll('.answer-option').forEach(b => b.disabled = true);
+
+                    if (option.isCorrect) {
+                        score++;
+                        ansDescription.innerText = "Правильно! " + question.explanation;
+                        btn.classList.add('correct');
+                    } else {
+                        ansDescription.innerText = "Неправильно! " + question.explanation;
+                        btn.classList.add('wrong');
+                    }
+
+                    const qBtn = document.querySelector(`.other-question[value="${currentQuestionIndex}"]`);
+                    if (qBtn) {
+                        qBtn.classList.add('answered');
+                        qBtn.classList.add(option.isCorrect ? 'correct' : 'wrong');
+                    }
+                    checkIfAllAnswered();
+                };
+            }
+
+            answersContainer.appendChild(btn);
+        });
     }
 
-    const question = questions[currentQuestionIndex - 1];
-    questionLabel.innerHTML = question.question || "Текст вопроса отсутствует";
-    answersContainer.innerHTML = '';
-
-    // create buttons for each answer
-    question.options.forEach((option, i) => {
-        const btn = document.createElement('button');
-        btn.className = 'answer-option';
-        btn.innerHTML = option.option;
-        btn.dataset.isCorrect = option.isCorrect;
-        btn.dataset.explanation = question.explanation || "";
-
-        // answer was received earlier
-        if (answeredQuestions[currentQuestionIndex]) {
-            btn.disabled = true;
-
-            if (answeredQuestions[currentQuestionIndex].selectedOption === i) {
-                 btn.classList.add(answeredQuestions[currentQuestionIndex].isCorrect ? 'correct' : 'wrong');
-            }
-
-        } else {
-            btn.onclick = function () {
-                answeredQuestions[currentQuestionIndex] = {
-                    answered: true,
-                    isCorrect: option.isCorrect,
-                    selectedOption: i
-                };
-
-                document.querySelectorAll('.answer-option').forEach(b => b.disabled = true);
-
-                if (option.isCorrect) {
-                    score++;
-                    ansDescription.innerText = "Правильно! " + question.explanation;
-                    btn.classList.add('correct');
-                } else {
-                    ansDescription.innerText = "Неправильно! " + question.explanation;
-                    btn.classList.add('wrong');
-                }
-
-                const qBtn = document.querySelector(`.other-question[value="${currentQuestionIndex}"]`);
-                if (qBtn) {
-                    qBtn.classList.add('answered');
-                    qBtn.classList.add(option.isCorrect ? 'correct' : 'wrong');
-                }
-                checkIfAllAnswered();
-            };
-        }
-
-        answersContainer.appendChild(btn);
-    });
-}
-
-function goToMainPage() {
-    window.location.href = 'index.html';
-}
+    function goToMainPage() {
+        window.location.href = 'index.html';
+    }
 
 
     filling(questions);
