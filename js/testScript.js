@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
             btn.innerHTML = option.option;
             btn.dataset.isCorrect = option.isCorrect;
             btn.dataset.explanation = question.explanation || "";
+            ansDescription.innerHTML = '';
 
             // answer was received earlier
             if (answeredQuestions[currentQuestionIndex]) {
@@ -71,6 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (answeredQuestions[currentQuestionIndex].selectedOption === i) {
                     btn.classList.add(answeredQuestions[currentQuestionIndex].isCorrect ? 'correct' : 'wrong');
                 }
+                ansDescription.innerHTML =  question.explanation;
 
             } else {
                 btn.onclick = function () {
@@ -79,7 +81,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         isCorrect: option.isCorrect,
                         selectedOption: i
                     };
-
                     document.querySelectorAll('.answer-option').forEach(b => b.disabled = true);
 
                     if (option.isCorrect) {
