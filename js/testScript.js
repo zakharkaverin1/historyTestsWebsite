@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const secondsElement = document.querySelector('.timer-seconds');
 
     let currentQuestionIndex = 1;
-    let timeLeft = questions.length * 1;
+    let timeLeft = questions.length * 30;
     let score = 0;
     let answeredQuestions = {};
 
@@ -23,22 +23,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function startTimer() {
         const countdown = setInterval(() => {
-        const minutes = Math.floor(timeLeft / 60);
-        const seconds = timeLeft % 60;
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
 
-        minutesElement.textContent = minutes.toString().padStart(2, '0');
-        secondsElement.textContent = seconds.toString().padStart(2, '0');
+            minutesElement.textContent = minutes.toString().padStart(2, '0');
+            secondsElement.textContent = seconds.toString().padStart(2, '0');
 
-        timeLeft--;
+            timeLeft--;
 
-        if (timeLeft < 0) {
-            clearInterval(countdown);
-            showResults();
-            timerSection.style.display = 'none';
-            timeLeft = 10 * 60;
-        }
-    }, 1000);
-}
+            if (timeLeft < 0) {
+                clearInterval(countdown);
+                showResults();
+                timerSection.style.display = 'none';
+                timeLeft = 10 * 60;
+            }
+        }, 1000);
+    }
 
     function checkIfAllAnswered() {
         const answeredCount = Object.keys(answeredQuestions).length;
