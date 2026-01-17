@@ -7,10 +7,38 @@ document.addEventListener('DOMContentLoaded', function () {
     const answersContainer = document.getElementById('answers');
     const ansDescription = document.getElementById('description');
     const questionsList = document.getElementById('questions-list');
+    const timerSection = document.getElementById('timer');
+    const minutesElement = document.querySelector('.timer-minutes');
+    const secondsElement = document.querySelector('.timer-seconds');
 
     let currentQuestionIndex = 1;
+    let timeLeft = questions.length * 1;
     let score = 0;
     let answeredQuestions = {};
+
+    if (localStorage.getItem('timer') === 'true') {
+        timerSection.style.display = 'grid';
+        startTimer();
+    }
+
+    function startTimer() {
+        const countdown = setInterval(() => {
+        const minutes = Math.floor(timeLeft / 60);
+        const seconds = timeLeft % 60;
+
+        minutesElement.textContent = minutes.toString().padStart(2, '0');
+        secondsElement.textContent = seconds.toString().padStart(2, '0');
+
+        timeLeft--;
+
+        if (timeLeft < 0) {
+            clearInterval(countdown);
+            showResults();
+            timerSection.style.display = 'none';
+            timeLeft = 10 * 60;
+        }
+    }, 1000);
+}
 
     function checkIfAllAnswered() {
         const answeredCount = Object.keys(answeredQuestions).length;
@@ -72,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (answeredQuestions[currentQuestionIndex].selectedOption === i) {
                     btn.classList.add(answeredQuestions[currentQuestionIndex].isCorrect ? 'correct' : 'wrong');
                 }
-                ansDescription.innerHTML =  question.explanation;
+                ansDescription.innerHTML = question.explanation;
 
             } else {
                 btn.onclick = function () {

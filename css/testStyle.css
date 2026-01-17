@@ -25,7 +25,7 @@ header {
     text-align: center;
     border-radius: 8px;
     margin-bottom: 3rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .title {
@@ -107,11 +107,13 @@ header {
     color: white;
 }
 
-.questionnare {
+
+.questionnare,
+#timer {
     background: #ffffff;
     padding: 3rem;
     border-radius: 8px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 3rem;
 }
 
@@ -181,7 +183,7 @@ fieldset {
     color: #721c24;
 }
 
-.answer-option.correct{
+.answer-option.correct {
     background: #d4edda;
     border-color: #c3e6cb;
     color: #155724;
@@ -205,6 +207,28 @@ fieldset {
     color: #1d1d1f;
 }
 
+#timer {
+    color: #1d1d1f;
+    grid-template-columns: 4.5rem 1.5rem 4.5rem;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.timer-item {
+    position: relative;
+}
+
+.timer-item::before {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  bottom: -0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.875rem;
+  color: #424242;
+}
 
 .modal {
     position: fixed;
