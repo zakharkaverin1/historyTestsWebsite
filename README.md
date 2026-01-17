@@ -20,12 +20,12 @@
 
 ## Структура
 
-index.html       # Главная страница
-test.html        # Тестирование
-js/data.js       # База вопросов
-js/mainScript.js # Логика основной страницы
-js/testScript.js # Логика теста
-css/*.css        # Стили
++ index.html       # Главная страница 
++ test.html        # Тестирование
++ js/data.js       # База вопросов
++ js/mainScript.js # Логика основной страницы
++ js/testScript.js # Логика теста
++ css/*.css        # Стили
 
 
 ## Что умеет
